@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function tweetMessage() {
-    const message = "Niya Chouhatsu no Aozora\n#NiyaBNK48\n#คำท้าทายที่ปลายฟ้าConceptDay1";
+    const message = "Niya ChouhatsunoAozora\n#NiyaBNK48\n#คำท้าทายที่ปลายฟ้าConceptDay1";
     const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(message)}`;
     window.open(tweetUrl, '_blank');
 }
